@@ -2,7 +2,7 @@
   "name": "questions-worth-asking",
   "displayName": "Questions Worth Asking",
   "description": "Finds the questions you didn't ask. Paste a meeting transcript and get three to seven ranked questions, each tied to the exact excerpt that produced it, across twelve review lenses.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Rachael Quisel"
   },

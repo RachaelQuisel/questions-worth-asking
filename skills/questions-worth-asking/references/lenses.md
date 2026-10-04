@@ -102,8 +102,8 @@ Ask: "What should move out of this version to keep the Friday date?"
 
 Use stated constraints. Don't invent capacity estimates or conclude that someone is overworking without evidence.
 
-## Keep or cut?
+## Choose useful questions
 
-Keep a signal when the evidence supports the question and the answer could change a real decision. Cut duplicate questions, resolved disagreements, and interpretations that depend on guessing.
+Keep a signal when the evidence supports the question and the answer could change a real decision. Remove duplicate questions, resolved disagreements, and interpretations that depend on guessing.
 
 If the same pattern appears across several authorized projects, it may be useful for the user's private reflection. Similarity alone doesn't establish a common cause. Don't move one client's confidential details into another client's discussion.

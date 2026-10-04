@@ -5,6 +5,19 @@ description: Find useful questions missed in a conversation or across related tr
 
 # Questions Worth Asking
 
+Read [the conversation and writing rules](references/conversation-and-writing.md) before responding. Apply them to all user-facing text.
+
+## Start the conversation
+
+If the request has no details, ask:
+
+1. "Which transcript, notes, or files should I review?"
+2. "Should I review one conversation or compare several?"
+3. "Is there a decision or concern you want me to focus on?"
+
+Treat the focus question as optional. If the user supplies one transcript and asks for missed questions, review it without requiring more answers. For a comparison, resolve which sources belong together. Ask about missing context only when it changes a finding. Respond to corrections using the supplied evidence.
+
+
 Help the user notice a mismatch, unanswered question, or meaningful change that could affect their next decision. Produce questions for reflection or discussion. Do not assume another person's motives, emotions, or intentions.
 
 This skill is manual and self-contained. It requires no connector, account, client list, delivery channel, or scheduled job.
@@ -39,7 +52,7 @@ Use these lenses as prompts for inquiry, not proof of a problem:
 | Over-owning responsibility | The user accepts responsibility while ownership or required inputs remain unclear. Ask about the work, not their psychology. |
 | Pace mismatch | The stated scope, deadline, capacity, or budget appears inconsistent. |
 
-Read [references/lenses.md](references/lenses.md) for examples and borderline cases. Goals, roles, process, and interpersonal dynamics form the GRPI organizing lens; don't treat it as an exhaustive explanation of conflict.
+Read [references/lenses.md](references/lenses.md) for examples and borderline cases. Goals, roles, process, and interpersonal dynamics form an organizing framework called GRPI; don't treat it as an exhaustive explanation of conflict.
 
 ## Workflow
 
