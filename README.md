@@ -14,9 +14,13 @@ Each question includes the excerpt, type of question, reason to ask, and a next 
 
 Read [how it works](Questions-Worth-Asking-HowItWorks-2026-10-03.md), [the review lenses](skills/questions-worth-asking/references/lenses.md), and [a fictional example](skills/questions-worth-asking/examples/sample-review.md). A review lens is a type of question to investigate.
 
-## Claude Marketplace submission
+## Claude Marketplace and Directory status
 
-Submitted to the [Claude Marketplace partner waitlist](https://claude.com/marketplace-partners) on **October 4, 2026**, through XRAY Automation. Submission confirmation was received; Marketplace eligibility and listing have not yet been confirmed.
+**Status checked: October 12, 2026.**
+
+- **Marketplace partner waitlist:** Submitted on October 4, 2026, through XRAY Automation. Submission confirmation was received.
+- **Claude Directory submission:** Previously submitted for review. The [original submission page](https://claude.ai/directory/manage/plugins/b0fcfe5f-202f-44a2-9677-c066bb9412c6) requires access through the submitting Claude account and organization.
+- **Current directory status:** Review outcome and public listing are unverified. On October 12, the original submission page reported that the submission was not found in the currently signed-in organization. This does not establish rejection, withdrawal, or publication.
 
 ## Install
 
