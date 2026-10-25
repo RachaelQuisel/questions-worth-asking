@@ -17,10 +17,12 @@
 4. It considers twelve review lenses. A lens is a type of question to investigate. It is not proof of a problem.
 5. For each useful question, it captures exact evidence and considers another possible explanation. A comparison claim needs evidence from both sources.
 6. It removes duplicate, resolved, and unsupported questions. It ranks questions by what their answers could change. It returns three to seven when supported, or fewer or none.
-7. It includes the evidence, review lens, reason to ask, and a next action. It states missing context. If a claim is corrected, it checks the supplied source and revises.
+7. When earlier question wording is supplied, it checks later evidence to separate addressed items from open items. It does not treat silence as proof that a question was ignored.
+8. It includes a Done and To-do checklist, a copy-ready client message for supported outward-facing questions, and supported internal checks. It never sends the draft or changes an external system.
 
 ## Outputs
 
-- Evidence-based questions in the current chat.
+- Evidence-based questions and a follow-through checklist in the current chat.
 - A saved review only when requested, in the chosen location.
-- No outbound message, external post, or scheduled monitor.
+- A copy-ready client message when an outward-facing question is supported.
+- No sent message, external post, task creation, system change, or scheduled monitor.

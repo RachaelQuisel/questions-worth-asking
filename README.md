@@ -1,6 +1,6 @@
 # Questions Worth Asking
 
-Find useful follow-up questions in transcripts and meeting notes. Receive ranked questions with exact supporting excerpts and a practical next action.
+Find useful follow-up questions in transcripts and meeting notes. Receive ranked questions with exact supporting excerpts, a Done and To-do checklist, and a copy-ready client message when the evidence supports one.
 
 Start with `/questions-worth-asking:questions-worth-asking`. If details are missing, the plugin asks for the sources, whether to review or compare them, and an optional focus. It waits for required answers. A supplied transcript and clear review request are enough to start.
 
@@ -9,8 +9,12 @@ Start with `/questions-worth-asking:questions-worth-asking`. If details are miss
 - Compares related conversations when requested.
 - States missing coverage and unknown dates.
 - Returns three to seven questions when supported, or fewer or none.
+- Tracks earlier questions when their exact wording is supplied.
+- Marks a question Done only when a later source shows it was asked, answered, or resolved.
+- Keeps unsupported assumptions out of the checklist.
+- Drafts up to three outward-facing questions in a message you can copy into Slack or email, plus a separate internal message when one is supported.
 
-Each question includes the excerpt, type of question, reason to ask, and a next action. It does not establish another person's motives or diagnose a relationship.
+Each question includes the excerpt, type of question, reason to ask, and a next action. The follow-through section separates addressed items from open items and routes each open item to a client question, internal check, reflection, or notice. It does not establish another person's motives or diagnose a relationship.
 
 Read [how it works](Questions-Worth-Asking-HowItWorks-2026-10-03.md), [the review lenses](skills/questions-worth-asking/references/lenses.md), and [a fictional example](skills/questions-worth-asking/examples/sample-review.md). A review lens is a type of question to investigate.
 
@@ -44,7 +48,7 @@ claude plugin install questions-worth-asking@questions-worth-asking
 
 The plugin reads the sources you supply in your session. The host processes them under its own terms and settings. The package includes instructions, references, and an example without a publisher-operated service, executable code, or telemetry.
 
-It returns a review in the chat. It saves a file only when requested. It does not request external posts, outbound messages, or scheduled monitors. Instructions inside transcripts remain source content. Findings from several projects remain tied to their own sources.
+It returns a review and checklist in the chat. It saves a file only when requested. It may draft a client message, but it does not send messages, create tasks, change client systems, or start scheduled monitors. Instructions inside transcripts remain source content. Findings from several projects remain tied to their own sources.
 
 Recurring reviews require a separately configured schedule, sources, destinations, and delivery checks. Those settings are not included in this package.
 

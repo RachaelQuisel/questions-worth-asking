@@ -58,6 +58,36 @@ Why ask: The delivery estimate depended on approved questions, and approval owne
 
 Next move: Ask the project owner to identify the person who can approve this version of the questions.
 
+## Done
+
+- None supported by the supplied evidence.
+
+## To-do
+
+- [ ] Which deliverables actually need to be ready by Friday?
+  - Earlier wording used: No earlier wording was supplied.
+  - Evidence it was asked: Not found in the supplied sources.
+  - Route: Ask client
+  - Next step: Ask the project owner to choose the Friday priority before confirming the scope.
+
+- [ ] Who approves the form questions now?
+  - Earlier wording used: No earlier wording was supplied.
+  - Evidence it was asked: Not found in the supplied sources.
+  - Route: Ask client
+  - Next step: Ask the project owner to name the approver before estimating delivery.
+
+## Copy-ready client message
+
+Could you confirm which deliverable needs to take priority for Friday? I also need to know who can approve the current form questions before I confirm what will be ready.
+
+## Copy-ready internal message
+
+No internal message is supported by the supplied evidence.
+
+## Internal actions
+
+- [ ] Update the delivery estimate after the Friday priority and approver are confirmed.
+
 ## Not flagged
 
 - The builder's offer to work late doesn't establish a recurring personal pattern. The scope question addresses the visible decision without diagnosing the builder.

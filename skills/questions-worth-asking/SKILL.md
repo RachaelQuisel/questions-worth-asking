@@ -1,6 +1,6 @@
 ---
 name: questions-worth-asking
-description: Find useful questions missed in a conversation or across related transcripts. Use for a transcript review, end-of-day or post-meeting reflection, or requests such as "worth asking", "dissonance radar", "what am I missing?", "what didn't I ask?", or "what changed between these meetings?" Return evidence-backed questions rather than diagnoses or outbound messages.
+description: Find useful questions missed in a conversation or across related transcripts, then turn them into a practical follow-through checklist. Use for a transcript review, end-of-day or post-meeting reflection, requests such as "worth asking", "dissonance radar", "what am I missing?", "what didn't I ask?", or "what changed between these meetings?", and requests to track what was asked or addressed. Return evidence-backed questions, status evidence, and copy-ready drafts that are never sent automatically.
 ---
 
 # Questions Worth Asking
@@ -18,7 +18,7 @@ If the request has no details, ask:
 Treat the focus question as optional. If the user supplies one transcript and asks for missed questions, review it without requiring more answers. For a comparison, resolve which sources belong together. Ask about missing context only when it changes a finding. Respond to corrections using the supplied evidence.
 
 
-Help the user notice a mismatch, unanswered question, or meaningful change that could affect their next decision. Produce questions for reflection or discussion. Do not assume another person's motives, emotions, or intentions.
+Help the user notice a mismatch, unanswered question, or meaningful change that could affect their next decision. Produce questions for reflection or discussion. Then make the useful questions easier to ask, check, or resolve. Do not assume another person's motives, emotions, or intentions.
 
 This skill is manual and self-contained. It requires no connector, account, client list, delivery channel, or scheduled job.
 
@@ -61,7 +61,8 @@ Read [references/lenses.md](references/lenses.md) for examples and borderline ca
 3. Separate what was said from what it might mean. Consider an ordinary alternative explanation before deciding a question is worth asking.
 4. Keep questions whose answers could change a decision, expectation, ownership, or next action. Remove duplicates and interesting-but-actionless observations.
 5. Rank by practical consequence. Aim for three to seven questions when the evidence supports that many; fewer or none is fine.
-6. Return the review in chat unless the user asks for a saved file. If saving, use the user's chosen location or the current workspace and report the path.
+6. Review any earlier question list or earlier Questions Worth Asking output supplied in the current scope. Use later source evidence to separate items into `Done` and `To-do`. Read [the follow-through rules](references/follow-through.md) before assigning a status or drafting a message.
+7. Return the review and follow-through checklist in chat unless the user asks for a saved file. If saving, use the user's chosen location or the current workspace and report the path.
 
 ## Output
 
@@ -92,10 +93,12 @@ If there are no findings, say that no decision-relevant questions surfaced in th
 
 Optionally include a brief "Not flagged" note when an excluded signal helps explain the evidence standard. See the [fictional sample review](examples/sample-review.md) for an example.
 
+After the review, include the follow-through sections defined in [references/follow-through.md]. Keep earlier questions only when their wording is supplied in the current scope. Do not reconstruct an earlier question from memory or from a later answer.
+
 ## Voice and follow-through
 
 Keep the tone curious and measured. Stay observational when discussing the user's own patterns. If a source shows distress or uncertainty, make the next move an open question before proposing a solution.
 
-Do not draft or send outbound messages as part of the review. If the user later requests a message, treat that as a separate task. Running this skill does not authorize posting transcripts or findings, creating a scheduled monitor, or writing to external systems.
+Draft one copy-ready client message when at least one supported outward-facing question belongs in `To-do`. Keep private reflection questions and internal checks out of the client draft. Do not send the draft, post findings, create a scheduled monitor, create tasks, or write to external systems unless the user separately authorizes that action.
 
 For recurring use, the user must separately configure the authorized sources, schedule, destinations, and delivery checks. This package does not include the author's private automation configuration.
