@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "repository": "RachaelQuisel/questions-worth-asking",
+  "packages": [
+    {
+      "name": "questions-worth-asking",
+      "root": ".",
+      "version": "1.2.3",
+      "manifests": [
+        "plugin.json",
+        ".claude-plugin/plugin.json",
+        ".codex-plugin/plugin.json"
+      ],
+      "skills": [
+        "skills/questions-worth-asking/SKILL.md"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "path": "skills/questions-worth-asking/SKILL.md",
+      "version": "1.2.3",
+      "sha256": "ebc9496b5e62dc56368789530b35655eec89554210a9f52f928ff830915fab5b",
+      "source": "skills/questions-worth-asking/SKILL.md",
+      "guide": "skills/questions-worth-asking/README.md"
+    }
+  ],
+  "copies": []
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Rachael Quisel"
+  },
+  "description": "Finds the questions you didn't ask, tracks what was addressed, and turns open questions into a copy-ready follow-through checklist.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Productivity",
+        "composerIcon": "./icon.png",
+        "developerName": "Rachael Quisel",
+        "displayName": "Questions Worth Asking",
+        "logo": "./icon.png",
+        "longDescription": "Finds the questions you didn't ask, tracks what was addressed, and turns open questions into a copy-ready follow-through checklist.",
+        "shortDescription": "Find overlooked questions"
+      }
+    }
+  },
+  "homepage": "https://github.com/RachaelQuisel/questions-worth-asking",
+  "keywords": [
+    "transcripts",
+    "meetings",
+    "retrospective",
+    "questions",
+    "reflection"
+  ],
+  "license": "MIT",
+  "name": "questions-worth-asking",
+  "repository": "https://github.com/RachaelQuisel/questions-worth-asking",
+  "version": "1.2.3"
+}

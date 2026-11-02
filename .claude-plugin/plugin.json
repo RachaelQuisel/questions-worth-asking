@@ -2,7 +2,7 @@
   "name": "questions-worth-asking",
   "displayName": "Questions Worth Asking",
   "description": "Finds the questions you didn't ask, tracks what was addressed, and turns open questions into a copy-ready follow-through checklist.",
-  "version": "1.2.0",
+  "version": "1.2.3",
   "author": {
     "name": "Rachael Quisel"
   },

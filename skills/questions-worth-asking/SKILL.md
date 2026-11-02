@@ -1,9 +1,23 @@
 ---
 name: questions-worth-asking
+version: 1.2.3
 description: Find useful questions missed in a conversation or across related transcripts, then turn them into a practical follow-through checklist. Use for a transcript review, end-of-day or post-meeting reflection, requests such as "worth asking", "dissonance radar", "what am I missing?", "what didn't I ask?", or "what changed between these meetings?", and requests to track what was asked or addressed. Return evidence-backed questions, status evidence, and copy-ready drafts that are never sent automatically.
 ---
 
 # Questions Worth Asking
+
+## Purpose in plain English
+
+This skill helps you find useful questions missed in a conversation and organize the unresolved follow-up.
+
+## How to explain the result
+
+For a client-facing explanation, use ordinary words and the requested format. Explain unfamiliar abbreviations. Name what each number counts and explain its practical meaning. Keep internal identifiers out of the explanation. Keep necessary technical details in the working steps and technical references.
+
+## Following the process
+
+Use the process below. Preserve its conditions, commands, checks, and approval rules. Use information the user already supplied. Follow the existing questions or stopping rules when required information is missing.
+
 
 Read [the conversation and writing rules](references/conversation-and-writing.md) before responding. Apply them to all user-facing text.
 

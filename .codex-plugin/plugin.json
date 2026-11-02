@@ -1,0 +1,30 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "composerIcon": "./icon.png",
+    "developerName": "Rachael Quisel",
+    "displayName": "Questions Worth Asking",
+    "logo": "./icon.png",
+    "longDescription": "Finds the questions you didn't ask, tracks what was addressed, and turns open questions into a copy-ready follow-through checklist.",
+    "shortDescription": "Find overlooked questions",
+    "defaultPrompt": null
+  },
+  "name": "questions-worth-asking",
+  "version": "1.2.3",
+  "description": "Finds the questions you didn't ask, tracks what was addressed, and turns open questions into a copy-ready follow-through checklist.",
+  "author": {
+    "name": "Rachael Quisel"
+  },
+  "keywords": [
+    "transcripts",
+    "meetings",
+    "retrospective",
+    "questions",
+    "reflection"
+  ],
+  "homepage": "https://github.com/RachaelQuisel/questions-worth-asking",
+  "repository": "https://github.com/RachaelQuisel/questions-worth-asking",
+  "license": "MIT",
+  "skills": "./skills"
+}
