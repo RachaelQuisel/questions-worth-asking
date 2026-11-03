@@ -1,18 +1,18 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "questions-worth-asking",
-  "description": "Questions Worth Asking: the questions you didn't ask, pulled out of your own meeting transcripts.",
+  "description": "Know what to ask next after a meeting.",
   "owner": {
     "name": "Rachael Quisel"
   },
   "plugins": [
     {
       "name": "questions-worth-asking",
-      "description": "Finds the questions you didn't ask, tracks what was addressed, and turns open questions into a copy-ready follow-through checklist.",
+      "description": "Turn meeting notes into useful follow-up. Find missed questions, clarify what changed, and get a prioritized checklist with messages ready to use.",
       "source": "./",
       "category": "productivity",
       "homepage": "https://github.com/RachaelQuisel/questions-worth-asking",
-      "version": "1.2.3"
+      "version": "1.2.4"
     }
   ]
 }

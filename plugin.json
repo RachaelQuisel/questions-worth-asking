@@ -3,7 +3,7 @@
   "author": {
     "name": "Rachael Quisel"
   },
-  "description": "Finds the questions you didn't ask, tracks what was addressed, and turns open questions into a copy-ready follow-through checklist.",
+  "description": "Turn meeting notes into useful follow-up. Find missed questions, clarify what changed, and get a prioritized checklist with messages ready to use.",
   "extensions": {
     "com.openai": {
       "interface": {
@@ -13,7 +13,7 @@
         "developerName": "Rachael Quisel",
         "displayName": "Questions Worth Asking",
         "logo": "./icon.png",
-        "longDescription": "Finds the questions you didn't ask, tracks what was addressed, and turns open questions into a copy-ready follow-through checklist.",
+        "longDescription": "Know what to ask next. Questions Worth Asking turns transcripts and meeting notes into ranked follow-up questions, exact supporting excerpts, and practical next steps. Compare related conversations, check earlier questions against later notes, and receive a Done and To-do checklist. When supported, get a client message with up to three questions and a separate internal draft. Supply one transcript and a clear review request to begin. Results and drafts appear in chat for you to review.",
         "shortDescription": "Find overlooked questions"
       }
     }
@@ -29,5 +29,5 @@
   "license": "MIT",
   "name": "questions-worth-asking",
   "repository": "https://github.com/RachaelQuisel/questions-worth-asking",
-  "version": "1.2.3"
+  "version": "1.2.4"
 }

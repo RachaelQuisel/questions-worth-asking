@@ -1,15 +1,15 @@
-# Find useful questions missed in a conversation and organize the unresolved follow-up
+# Know what to ask next
 
-This skill helps you find useful questions missed in a conversation and organize the unresolved follow-up.
+Turn a meeting transcript or notes into a ranked list of useful follow-up questions. Each question includes a supporting excerpt, why it matters, and a next step. You also receive a Done and To-do checklist, plus a draft message when supported.
 
-## What to share
+## Start here
 
-Specify the account or source material, the dates to cover, and what you want the review to focus on.
+Supply your notes and ask:
 
-## How to start
+> What useful questions did I miss? Show me what to ask first and why.
 
-Select this skill and describe your request. The assistant uses the information and tools available in that conversation.
+For comparisons, supply the related conversations. To track earlier questions, include their exact wording and the later notes. A focus is optional. The assistant asks for missing information only when it affects the review.
 
-## Detailed guidance
+In Claude Code, type `/questions-worth-asking:questions-worth-asking` in the conversation. Open Claude Code from your terminal with `claude` first.
 
-The [working instructions](SKILL.md) describe the skill's steps, required tools, and limits.
+Read the [plugin guide](https://github.com/RachaelQuisel/questions-worth-asking#readme) for examples and installation. The [working instructions](SKILL.md) define the review and evidence rules.
