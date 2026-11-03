@@ -6,6 +6,8 @@ Questions Worth Asking turns meeting transcripts and notes into useful follow-up
 
 Use it after a client call, before a follow-up meeting, or when you need to understand what changed across several conversations. Each finding comes with the exact words that support it, so you can check the reasoning before acting.
 
+Questions Worth Asking is [published in Claude's plugin directory](https://claude.ai/directory/manage/plugins/b0fcfe5f-202f-44a2-9677-c066bb9412c6).
+
 ## What you get
 
 - **Questions worth your time.** Receive a ranked list focused on answers that could change a decision, expectation, responsibility, or next action.
