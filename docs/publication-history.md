@@ -1,5 +1,9 @@
 # Publication and verification
 
+## Directory install count
+
+On November 3, 2026, the [Claude publisher page](https://claude.ai/directory/manage/plugins/b0fcfe5f-202f-44a2-9677-c066bb9412c6) showed Questions Worth Asking as **Published**, listed in Claude Code, Cowork, and Claude apps since October 18, with **518 all-time installs** through **November 1, 2026**. This is the basis for the README's install statement. The page requires publisher access. Installs are not a measure of active users or endorsements.
+
 ## November 3, 2026
 
 The source release is **1.2.4**. This release improves the README, skill guide, listing descriptions, and setup instructions. The core skill workflow and reference files are unchanged.
