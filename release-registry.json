@@ -5,7 +5,7 @@
     {
       "name": "questions-worth-asking",
       "root": ".",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "manifests": [
         "plugin.json",
         ".claude-plugin/plugin.json",
@@ -19,8 +19,8 @@
   "skills": [
     {
       "path": "skills/questions-worth-asking/SKILL.md",
-      "version": "1.2.4",
-      "sha256": "873cbf2ac14cca98c906741c0e1e52ac59a26495d55f6aa29aebb47e6d4cf15e",
+      "version": "1.2.5",
+      "sha256": "1b053682d097a657ef75cbab69c8f6fadbcf48a0783ad0c58f9e30cad1778f2d",
       "source": "skills/questions-worth-asking/SKILL.md",
       "guide": "skills/questions-worth-asking/README.md"
     }

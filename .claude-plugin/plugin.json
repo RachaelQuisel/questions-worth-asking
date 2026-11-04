@@ -2,7 +2,7 @@
   "name": "questions-worth-asking",
   "displayName": "Questions Worth Asking",
   "description": "Turn meeting notes into useful follow-up. Find missed questions, clarify what changed, and get a prioritized checklist with messages ready to use.",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "author": {
     "name": "Rachael Quisel"
   },

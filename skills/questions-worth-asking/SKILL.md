@@ -1,6 +1,6 @@
 ---
 name: questions-worth-asking
-version: 1.2.4
+version: 1.2.5
 description: Find useful questions missed in a conversation or across related transcripts, then turn them into a practical follow-through checklist. Use for a transcript review, end-of-day or post-meeting reflection, requests such as "worth asking", "dissonance radar", "what am I missing?", "what didn't I ask?", or "what changed between these meetings?", and requests to track what was asked or addressed. Return evidence-backed questions, status evidence, and copy-ready drafts that are never sent automatically.
 ---
 
